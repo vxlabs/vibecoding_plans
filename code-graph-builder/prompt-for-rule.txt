@@ -1,0 +1,12 @@
+Create an alwaysApply Cursor rule for "Project Path" 
+that instructs the AI to:
+- Run cgb_bundle before editing any .cs file
+- Run cgb_impact before making changes that affect multiple files  
+- Use cgb_search instead of grepping for classes/interfaces
+- Use cgb_path to understand how two files relate
+- Skip lang/locale/i18n folders unless explicitly asked
+
+Include a table mapping each situation to the right tool, 
+a step-by-step workflow for edit tasks, 
+and a "never do this" section.
+The project has 1156 files, 2126 nodes, 1785 edges, 0 cycles.
